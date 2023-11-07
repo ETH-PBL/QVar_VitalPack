@@ -68,40 +68,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
-DocumentPath=..\vitalcore_hardware\VC_Common\VC_PCBLib.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PYHQISPQ
-
-[Document3]
-DocumentPath=..\vitalcore_hardware\VC_Common\VC_SchematicLib.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MQXGPFCK
-
-[Document4]
 DocumentPath=PCB\Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +84,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XXEGMPWY
 
-[Document5]
+[Document3]
 DocumentPath=PCB\Interface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document4]
 DocumentPath=PCB\main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XGMRXGEV
 
-[Document7]
+[Document5]
 DocumentPath=PCB\QVAR.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XOTKOTFF
 
-[Document8]
+[Document6]
 DocumentPath=PCB\QVAR.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document7]
 DocumentPath=PCB\QVAR6_VC_Backpack.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MPFJPXOB
 
-[Document10]
+[Document8]
 DocumentPath=settings\Assembly.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document9]
 DocumentPath=settings\Documentation.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -237,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document10]
 DocumentPath=settings\Fabrication.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,41 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
-DocumentPath=Draftsman\Assembly.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document14]
-DocumentPath=Draftsman\Fabrication.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document15]
+[Document11]
 DocumentPath=PCB\Libraries\6QChan_vitalcore_backpack.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CTPESQAU
 
-[Document16]
+[Document12]
 DocumentPath=PCB\QVAR6_VC_Backpack.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QXSHAVVU
 
-[Document17]
+[Document13]
 DocumentPath=settings\PULSER.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -344,11 +276,11 @@ UniqueID=CC5FB98A-172F-436E-944C-89DB058EEA31
 Description=Fabrication
 AllowFabrication=0
 ParameterCount=0
-VariationCount=22
-Variation1=Designator=JA2|UniqueId=\EDRPCIKI|Kind=1|AlternatePart= 
-Variation2=Designator=JA1|UniqueId=\PLWPLAEF|Kind=1|AlternatePart= 
-Variation3=Designator=JB1|UniqueId=\XBABMEVM|Kind=1|AlternatePart= 
-Variation4=Designator=JB2|UniqueId=\LBFRPQCV|Kind=1|AlternatePart= 
+VariationCount=38
+Variation1=Designator=JA2|UniqueId=\EDRPCIKI|Kind=0|AlternatePart= 
+Variation2=Designator=JA1|UniqueId=\PLWPLAEF|Kind=0|AlternatePart= 
+Variation3=Designator=JB1|UniqueId=\XBABMEVM|Kind=0|AlternatePart= 
+Variation4=Designator=JB2|UniqueId=\LBFRPQCV|Kind=0|AlternatePart= 
 Variation5=Designator=C3_QA1|UniqueId=\LULKZAFO\JOPCFFNV|Kind=1|AlternatePart= 
 Variation6=Designator=C3_QB2|UniqueId=\EPVDMJWJ\JOPCFFNV|Kind=1|AlternatePart= 
 Variation7=Designator=CG2_QA1|UniqueId=\LULKZAFO\SOENQCXB|Kind=1|AlternatePart= 
@@ -367,7 +299,27 @@ Variation19=Designator=C3_QB1|UniqueId=\OCTUSPYG\JOPCFFNV|Kind=1|AlternatePart=
 Variation20=Designator=C3_QC1|UniqueId=\MCGUMNFH\JOPCFFNV|Kind=1|AlternatePart= 
 Variation21=Designator=C3_QA2|UniqueId=\FWUAFCEM\JOPCFFNV|Kind=1|AlternatePart= 
 Variation22=Designator=C3_QC2|UniqueId=\FVIQOMNP\JOPCFFNV|Kind=1|AlternatePart= 
+Variation23=Designator=JPW|UniqueId=\SGMUHLLN\DLYAWMJO|Kind=0|AlternatePart= 
+Variation24=Designator=JC1|UniqueId=\TFXMGYYM|Kind=0|AlternatePart= 
+Variation25=Designator=JC2|UniqueId=\IIAHEAFB|Kind=0|AlternatePart= 
+Variation26=Designator=JSW|UniqueId=\SGMUHLLN\DFDPQLWC|Kind=0|AlternatePart= 
+Variation27=Designator=JPPW|UniqueId=\SGMUHLLN\CYUTBXDO|Kind=0|AlternatePart= 
+Variation28=Designator=R?|UniqueId=\SGMUHLLN\ACTJSIHU|Kind=1|AlternatePart= 
+Variation29=Designator=R?|UniqueId=\SGMUHLLN\YRFKURNT|Kind=1|AlternatePart= 
+Variation30=Designator=R?|UniqueId=\SGMUHLLN\ZECRBNEX|Kind=1|AlternatePart= 
+Variation31=Designator=R?|UniqueId=\SGMUHLLN\QXMEKEPS|Kind=1|AlternatePart= 
+Variation32=Designator=R?|UniqueId=\SGMUHLLN\WLIHVTJW|Kind=1|AlternatePart= 
+Variation33=Designator=R?|UniqueId=\SGMUHLLN\ZTAUKHZU|Kind=1|AlternatePart= 
+Variation34=Designator=J5|UniqueId=\SGMUHLLN\XHLIFTQH|Kind=1|AlternatePart= 
+Variation35=Designator=J6|UniqueId=\SGMUHLLN\NASMABBU|Kind=1|AlternatePart= 
+Variation36=Designator=J2|UniqueId=\SGMUHLLN\PRNPFQRF|Kind=1|AlternatePart= 
+Variation37=Designator=J3|UniqueId=\XAAGYAIW|Kind=1|AlternatePart= 
+Variation38=Designator=J4|UniqueId=\QTYJBGDH|Kind=1|AlternatePart= 
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Design Rule Check - QVAR6_VC_Backpack.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=CAGE_CODE
@@ -1243,6 +1195,12 @@ Type127=1
 Type128=1
 Type129=1
 Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
 
 [Difference Levels]
 Type1=1
@@ -1440,6 +1398,7 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
@@ -1517,12 +1476,84 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-FullReplace=1
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID0=BACKPACK_INTERFACE_V1.0
+ComponentSymbolReference0=BACKPACK_INTERFACE_V1.0
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID1=CAP_0201_100n_10V
+ComponentSymbolReference1=CAP_0201_100n_10V
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID2=CAP_0201_110p_50V
+ComponentSymbolReference2=CAP_0201_110p_50V
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID3=CAP_0201_1u_10V
+ComponentSymbolReference3=CAP_0201_1u_10V
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID4=CAP_0201_470p_25V
+ComponentSymbolReference4=CAP_0201_470p_25V
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID5=CMP-00224-2
+ComponentSymbolReference5=Test Pad
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID6=CONMHF1-SMD-G-T
+ComponentSymbolReference6=CONMHF1-SMD-G-T
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID7=FTS-103-01-L-S
+ComponentSymbolReference7=FTS-103-01-L-S
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID8=JMP_0201_3w
+ComponentSymbolReference8=JMP_0201_3w
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID9=LIS2DUXS12TR
+ComponentSymbolReference9=LIS2DUXS12TR
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID10=R_0201_4.7K
+ComponentSymbolReference10=R_0201_4.7K
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=6Qchan_vitalcore_backpack.SchLib
+ComponentDesignItemID11=TPD1E01B04DPYRQ1
+ComponentSymbolReference11=TPD1E01B04DPYRQ1
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
 PreserveParameterLocations=1
 PreserveParameterVisibility=1
-DoGraphics=1
+DoGraphics=0
 DoParameters=1
 DoModels=1
 AddParameters=0
@@ -1530,6 +1561,220 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Additional Feature
+ParameterUpdate0=1
+ParameterName1=Arrow Part Number
+ParameterUpdate1=1
+ParameterName2=Arrow Price/Stock
+ParameterUpdate2=1
+ParameterName3=Capacitor Type
+ParameterUpdate3=1
+ParameterName4=Case/Package
+ParameterUpdate4=1
+ParameterName5=Category
+ParameterUpdate5=1
+ParameterName6=Comment
+ParameterUpdate6=1
+ParameterName7=Component Kind
+ParameterUpdate7=1
+ParameterName8=ComponentLink1Description
+ParameterUpdate8=1
+ParameterName9=ComponentLink1URL
+ParameterUpdate9=1
+ParameterName10=ComponentLink2Description
+ParameterUpdate10=1
+ParameterName11=ComponentLink2URL
+ParameterUpdate11=1
+ParameterName12=ComponentLink3Description
+ParameterUpdate12=1
+ParameterName13=ComponentLink3URL
+ParameterUpdate13=1
+ParameterName14=ComponentLink4Description
+ParameterUpdate14=1
+ParameterName15=ComponentLink4URL
+ParameterUpdate15=1
+ParameterName16=ComponentLink5Description
+ParameterUpdate16=1
+ParameterName17=ComponentLink5URL
+ParameterUpdate17=1
+ParameterName18=ComponentLink6Description
+ParameterUpdate18=1
+ParameterName19=ComponentLink6URL
+ParameterUpdate19=1
+ParameterName20=ComponentLink7Description
+ParameterUpdate20=1
+ParameterName21=ComponentLink7URL
+ParameterUpdate21=1
+ParameterName22=ComponentLink8Description
+ParameterUpdate22=1
+ParameterName23=ComponentLink8URL
+ParameterUpdate23=1
+ParameterName24=Connector Type
+ParameterUpdate24=1
+ParameterName25=Construction
+ParameterUpdate25=1
+ParameterName26=Contact Finish - Mating
+ParameterUpdate26=1
+ParameterName27=Contact Finish - Termination
+ParameterUpdate27=1
+ParameterName28=Contact Gender
+ParameterUpdate28=1
+ParameterName29=Contact Material
+ParameterUpdate29=1
+ParameterName30=Copyright
+ParameterUpdate30=1
+ParameterName31=Datasheet Link
+ParameterUpdate31=1
+ParameterName32=Description
+ParameterUpdate32=1
+ParameterName33=Dielectric Material
+ParameterUpdate33=1
+ParameterName34=DIN Conformance
+ParameterUpdate34=1
+ParameterName35=Filter Feature
+ParameterUpdate35=1
+ParameterName36=Flammability Rating
+ParameterUpdate36=1
+ParameterName37=Height
+ParameterUpdate37=1
+ParameterName38=IEC Conformance
+ParameterUpdate38=1
+ParameterName39=JESD-609 Code
+ParameterUpdate39=1
+ParameterName40=Library Reference
+ParameterUpdate40=1
+ParameterName41=Manufacturer
+ParameterUpdate41=1
+ParameterName42=Manufacturer Part Number
+ParameterUpdate42=1
+ParameterName43=Manufacturer Series
+ParameterUpdate43=1
+ParameterName44=Manufacturer_Name
+ParameterUpdate44=1
+ParameterName45=Manufacturer_Part_Number
+ParameterUpdate45=1
+ParameterName46=Max Operating Temperature
+ParameterUpdate46=1
+ParameterName47=Mfr_Name
+ParameterUpdate47=1
+ParameterName48=MIL Conformance
+ParameterUpdate48=1
+ParameterName49=Min Operating Temperature
+ParameterUpdate49=1
+ParameterName50=Mixed Contacts
+ParameterUpdate50=1
+ParameterName51=Mounting Style
+ParameterUpdate51=1
+ParameterName52=Mounting Technology
+ParameterUpdate52=1
+ParameterName53=Mouser Part Number
+ParameterUpdate53=1
+ParameterName54=Mouser Price/Stock
+ParameterUpdate54=1
+ParameterName55=Multilayer
+ParameterUpdate55=1
+ParameterName56=Number of Contacts
+ParameterUpdate56=1
+ParameterName57=Number of Rows Loaded
+ParameterUpdate57=1
+ParameterName58=Option
+ParameterUpdate58=1
+ParameterName59=Package Height
+ParameterUpdate59=1
+ParameterName60=Package Length
+ParameterUpdate60=1
+ParameterName61=Package Shape
+ParameterUpdate61=1
+ParameterName62=Package Style
+ParameterUpdate62=1
+ParameterName63=Package Width
+ParameterUpdate63=1
+ParameterName64=Packaging
+ParameterUpdate64=1
+ParameterName65=Pins
+ParameterUpdate65=1
+ParameterName66=Power
+ParameterUpdate66=1
+ParameterName67=Pricing 1
+ParameterUpdate67=1
+ParameterName68=Rated DC Voltage (URdc)
+ParameterUpdate68=1
+ParameterName69=Rated Temperature
+ParameterUpdate69=1
+ParameterName70=Reach SVHC Compliant
+ParameterUpdate70=1
+ParameterName71=RefDes
+ParameterUpdate71=1
+ParameterName72=Reference Standard
+ParameterUpdate72=1
+ParameterName73=Resistor Type
+ParameterUpdate73=1
+ParameterName74=RoHS
+ParameterUpdate74=1
+ParameterName75=RoHS Compliant
+ParameterUpdate75=1
+ParameterName76=Stock 1
+ParameterUpdate76=1
+ParameterName77=Supplier 1
+ParameterUpdate77=1
+ParameterName78=Supplier Part Number 1
+ParameterUpdate78=1
+ParameterName79=Technology
+ParameterUpdate79=1
+ParameterName80=Temperature Characteristics Code
+ParameterUpdate80=1
+ParameterName81=Temperature Coefficient
+ParameterUpdate81=1
+ParameterName82=Terminal Finish
+ParameterUpdate82=1
+ParameterName83=Terminal Pitch
+ParameterUpdate83=1
+ParameterName84=Termination
+ParameterUpdate84=1
+ParameterName85=Tolerance
+ParameterUpdate85=1
+ParameterName86=Tolerance  (fill in as +-)
+ParameterUpdate86=1
+ParameterName87=Tolerance (fill in as +-)
+ParameterUpdate87=1
+ParameterName88=Type
+ParameterUpdate88=1
+ParameterName89=Value
+ParameterUpdate89=1
+ParameterName90=Working Voltage
+ParameterUpdate90=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=BACKPACK_INTERFACE_V1.0_1.5mm
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=BACKPACK_INTERFACE_V1.0_2mm
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAP_0201
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=C-CONMHF1-SMD-G-T
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=JMP_0201_3way
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=Pad-0.6mm
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=QFN_DUXS12_STM-M
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=RES_0201
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=SAMTEC-FTS-103-01-X-S
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=TPD1E01B04DPYRQ1
+ModelUpdate9=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
