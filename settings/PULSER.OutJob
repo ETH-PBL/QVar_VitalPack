@@ -17,12 +17,12 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=PULSER.OutJob
 Description=
-TargetOutputMedium=Assembly
+TargetOutputMedium=Full_Documentation
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
 TargetPrinter=Virtual Printer
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=
@@ -44,7 +44,7 @@ OutputName1=SCHEM
 OutputCategory1=Documentation
 OutputDocumentPath1=[Project Physical Documents]
 OutputVariantName1=Fabrication
-OutputEnabled1=0
+OutputEnabled1=1
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
 OutputEnabled1_OutputMedium3=0
@@ -53,7 +53,7 @@ OutputEnabled1_OutputMedium5=0
 OutputEnabled1_OutputMedium6=0
 OutputEnabled1_OutputMedium7=1
 OutputDefault1=0
-PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=A4|PaperIndex=9
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=[Project Physical Documents]
 OutputType2=Gerber
@@ -93,7 +93,7 @@ OutputName4=LAY
 OutputCategory4=Documentation
 OutputDocumentPath4=DOC_ART.PCBDwf
 OutputVariantName4=
-OutputEnabled4=0
+OutputEnabled4=1
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=0
@@ -123,7 +123,7 @@ OutputName6=MAN
 OutputCategory6=Documentation
 OutputDocumentPath6=DOC_MANUFACTURE.PCBDwf
 OutputVariantName6=
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -138,7 +138,7 @@ OutputName7=CON
 OutputCategory7=Documentation
 OutputDocumentPath7=DOC_CONN.PCBDwf
 OutputVariantName7=
-OutputEnabled7=0
+OutputEnabled7=1
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -228,6 +228,36 @@ OutputEnabled11_OutputMedium6=0
 OutputEnabled11_OutputMedium7=0
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=PCBDrawing
+OutputName12=BOM
+OutputCategory12=Documentation
+OutputDocumentPath12=DOC_BOM.PCBDwf
+OutputVariantName12=
+OutputEnabled12=1
+OutputEnabled12_OutputMedium1=0
+OutputEnabled12_OutputMedium2=0
+OutputEnabled12_OutputMedium3=0
+OutputEnabled12_OutputMedium4=0
+OutputEnabled12_OutputMedium5=0
+OutputEnabled12_OutputMedium6=0
+OutputEnabled12_OutputMedium7=6
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=PCBDrawing
+OutputName13=3D
+OutputCategory13=Documentation
+OutputDocumentPath13=DOC_3D.PCBDwf
+OutputVariantName13=
+OutputEnabled13=1
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium3=0
+OutputEnabled13_OutputMedium4=0
+OutputEnabled13_OutputMedium5=0
+OutputEnabled13_OutputMedium6=0
+OutputEnabled13_OutputMedium7=7
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [PublishSettings]
 OutputFilePath2=D:\Design\Altium_designer\QVAR_vitalcore\6QChan_vitalcore_backpack\Documentation\Pulser_schematics.PDF
@@ -337,7 +367,7 @@ ShowComponentParameters6=1
 GlobalBookmarks6=0
 PDFACompliance6=Disabled
 PDFVersion6=Default
-OutputFilePath7=D:\Design\altium\PHD\LD_Cup_Driver\ld_pulser\Documentation\LD_Pulser_FULL_DOC.PDF
+OutputFilePath7=D:\Design\Altium_designer\QVAR_vitalcore\6QChan_vitalcore_backpack\Documentation\QVAR_backpack_FULL_DOC_fab.PDF
 ReleaseManaged7=0
 OutputBasePath7=Documentation\
 OutputPathMedia7=
@@ -345,7 +375,7 @@ OutputPathMediaValue7=
 OutputPathOutputer7=[Output Type]
 OutputPathOutputerPrefix7=
 OutputPathOutputerValue7=
-OutputFileName7=LD_Pulser_FULL_DOC.PDF
+OutputFileName7=QVAR_backpack_FULL_DOC_novar.PDF
 OutputFileNameMulti7=
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
@@ -392,6 +422,6 @@ OpenIPCOutput5=0
 EnableReload5=0
 RelativeOutputPath6=D:\Design\altium\PHD\LD_Cup_Driver\ld_pulser\Documentation\Manufacturing\LD_Pulser_MAN.PDF
 OpenOutputs6=1
-RelativeOutputPath7=D:\Design\altium\PHD\LD_Cup_Driver\ld_pulser\Documentation\LD_Pulser_FULL_DOC.PDF
+RelativeOutputPath7=D:\Design\Altium_designer\QVAR_vitalcore\6QChan_vitalcore_backpack\Documentation\QVAR_backpack_FULL_DOC_fab.PDF
 OpenOutputs7=1
 
