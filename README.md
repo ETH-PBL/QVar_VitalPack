@@ -135,7 +135,7 @@ This is an open hardware project. Contributions are welcome in the form of:
 
 This project is released under an open hardware license:
 
-- **Hardware Design Files**: GNU General Public License v3.0
+- **Hardware Design Files**: Solderpad v0.51 (SHL-0.51) (see LICENSE)
 - **Documentation**: Creative Commons Attribution 4.0 International License (CC-BY-4.0)
 
 ## Contact and Support
